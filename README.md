@@ -8,6 +8,7 @@ This repository contains an example of how to write a POST request test for a us
 
 Before running the test, make sure you have the following prerequisites installed:
 
+- [Visual Studio](https://visualstudio.microsoft.com/) or a similar IDE for C# development.
 - [.NET Core](https://dotnet.microsoft.com/download)
 - [RestSharp](https://restsharp.dev/) (106.5.4)
 - [NUnit](https://nunit.org/)
