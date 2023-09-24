@@ -27,7 +27,7 @@ This is the UI automation test for https://buggy.justtestit.org/ registraion pag
 Before running the test, make sure you have the following prerequisites installed:
 
 - [Visual Studio](https://visualstudio.microsoft.com/) or a similar IDE for C# development.
-- [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/) for UI testing.
+- [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/) for UI testing. (driver included in the solution)
 - [RestSharp](https://restsharp.dev/) for API testing.
 - [NUnit](https://nunit.org/)
 - [SpecFlow](https://specflow.org/)
