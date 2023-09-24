@@ -1,10 +1,5 @@
 ﻿using SouthernCrossTests.Contexts;
 using SouthernCrossTests.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OpenQA.Selenium;
 using NUnit.Framework;
 
@@ -30,12 +25,9 @@ namespace SouthernCrossTests.PageObjects
         public IWebElement registerButton => _driverContext.ChromeDriver.FindElement(By.XPath("//button[text()='Register']"));
         public IWebElement registrationResult => _driverContext.ChromeDriver.FindElement(By.ClassName("result"));
 
-        //public void navigate() => _driverContext.ChromeDriver.Navigate().GoToUrl($"{_applicationInitializerContext.applicationInitializer.ApplicationBaseUrl}register");
-
         public void GoToRegistrationPage()
         {
             navigateRegisterButton.Click();
-            //_driverContext.ChromeDriver.Navigate().GoToUrl($"{_applicationInitializerContext.applicationInitializer.ApplicationBaseUrl}register");
             Assert.That(registrationPage.Text.Contains("Register with Buggy Cars Rating"));
         }
 
